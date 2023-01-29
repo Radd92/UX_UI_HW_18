@@ -1,0 +1,104 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Playfair Display';
+}
+.wrapper {
+
+    height: 100%;
+    background-image: url("../Images/Background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {  
+    width: 100%;
+    background-color: #d9d9d93a;
+    color: white;
+}
+navbar {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.logo {
+    width: 23%;
+    padding: 1%;
+}
+nav {
+    width: 73%;
+    padding: 1%
+}
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+}
+ul li {
+    width: 10%;
+    text-decoration: none;
+    list-style: none;
+}
+.heroImg {
+    width: 90%;
+    margin: 5% auto; 
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.text {
+    width: 50%;
+    padding: 5%;
+    color: white;
+    font-family: 'lato';
+}
+.text p { 
+    letter-spacing: 2px;
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: 300;
+    }
+.myimagetext p {
+    color: white;
+    position: absolute;
+    font-size: 47px;
+    width: 18%;
+    line-height: 80px;
+    padding: 0 4%;
+    margin: 17px;
+}
+.my-projects {
+    color: white;
+    text-align: center;
+}
+.my-projects img {
+    margin: 2%; 
+
+}
+.my-projects h2 {
+    letter-spacing: 4px;
+    font-size: 35px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #d9d9d93a;
+    color: white;
+    height: 200px;
+    text-align: center;
+
+}
+footer p {
+    font-size: 20px;
+}
